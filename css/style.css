@@ -1,0 +1,176 @@
+body,*,*:before,*:after{
+	box-sizing: border-box;
+}
+html,body
+{
+	font-family: "Helvetica Neue",Helvetica, sans-serif;
+	font-size: 16px;
+	color: #474747;
+}
+h1,h2,h3,h4,h5,h6,.title{
+	font-family: "Helvetica Neue",Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0 0 1em;
+}
+h2
+{
+	font-size: 1.6rem;
+}
+h3{
+	font-size: 1.2rem;
+}
+a{
+	color: inherit;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover,a:visited,a:active{
+	text-decoration: none;
+	color: inherit;
+}
+p{
+	margin: 0.5em 0;
+	line-height: 1.4;
+}
+.data{
+	margin-bottom: 3rem;
+}
+.fixed-width{
+	width: 940px;
+	margin: 0 auto;
+}
+.clearfix:before,.clearfix:after{
+	content: " ";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+.page-header{
+	border-top: 5px solid #474747;
+	padding-bottom: 2em;
+	}
+
+	.page-header > div{
+		
+		position: relative;
+
+	}
+	.page-header .logo
+	{
+		font-family: "Pacifico",cursive;
+		font-size: 3.5em;
+		position: absolute;
+		bottom: 0;
+	}
+	.page-header nav{
+		float: right;
+		text-transform: uppercase;
+	}
+	.page-header nav li{
+		color: #bfbfbf;
+		float: left;
+		margin-right: 2rem;
+		padding-top: 3rem;
+	}
+	.page-header nav li:last-child{
+		margin-right: 0;
+	}
+	.page-header nav li em{
+		display: block;
+		color: #474747;
+		font-size: 1.6em;
+	}
+.visual {
+}
+	.visual img{
+		display: block;
+	}
+	.visual figcaption {
+		background-color: #f6f6f6;
+		padding: 0.5em 1em; 
+	}
+	.visual figcaption > strong {
+		font-size: 1.4em;
+	}
+.claims{
+}
+	.claim{
+		float: left;
+		width: 30%;
+		margin-right: 5%;
+	}
+	.claim:last-child{
+		margin-right: 0;
+	}
+	.claim header > img {
+		height: 40;
+		float: left;
+		width: 25%;
+	}
+	.claim header >h3{
+		float: left;
+		width: 75%;
+	}
+	.claim p + img{
+		height: 15;
+	}
+.portfolio {
+	position: relative;
+	
+}
+.portfolio:before{
+	content: " ";
+	display: block;
+	height: 30px;
+	border-top: 25.6px double #474747;
+	margin-bottom: 3em;
+}
+.portfolio .mid{
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	text-align: center;
+}
+.portfolio h2{
+	display: inline;
+	background-color: #fff;
+	padding: 1em;
+}
+.work{
+	float: left;
+	width:22%;
+	margin-right: 4%;
+}
+	.work:last-child{
+		margin-right: 0;
+	}
+	.work figure{
+		margin-bottom: 1em;
+	}
+	.work p+img{
+		height: 10;
+	}
+.page-footer:before{
+	content: " ";
+	display: block;
+	height: 5px;
+	background: url(C:\Users\Bhavya\Desktop\New folder\Final Project\image\1s.png) left top repeat-x;
+}
+.page-footer{
+	background-color:#f4f4f4;
+	color:9b9b9b;
+	font-size: 1rem;
+	height: 70px; 
+	}
+	.copyright{
+		float: left;
+	}
+	.credit{
+		float: right; 	
+	}
+	.footer-div{
+		padding: 1em 0;
+	}

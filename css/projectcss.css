@@ -1,0 +1,171 @@
+
+body,*,*:before,*:after{
+	box-sizing: border-box;
+}
+html,body
+{
+	font-family: "Helvetica Neue",Helvetica, sans-serif;
+	font-size: 16px;
+	color: #474747;
+}
+h1,h2,h3,h4,h5,h6,.title{
+	font-family: "Helvetica Neue",Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0 0 ;
+}
+h2
+{
+	font-size: 1.6rem;
+}
+h3{
+	font-size: 1.2rem;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+a:hover,a:visited,a:active{
+	text-decoration: none;
+	color: inherit;
+}
+p{
+	margin: 0.5em 0;
+	line-height: 1.4;
+}
+.data{
+	margin-bottom: 3rem;
+}
+.fixed-width{
+	width: 940px;
+	margin: 0 auto;
+}
+.clearfix:before,.clearfix:after{
+	content: " ";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+.page-header{
+	border-top: 5px solid #474747;
+	padding-bottom: 2em;
+	}
+
+	.page-header > div{
+		
+		position: relative;
+
+	}
+	.page-header .logo
+	{
+		font-family: "Pacifico",cursive;
+		font-size: 3.5em;
+		position: absolute;
+		bottom: 0;
+	}
+	.page-header nav{
+		float: right;
+		text-transform: uppercase;
+	}
+	.page-header nav li{
+		color: #bfbfbf;
+		float: left;
+		margin-right: 2rem;
+		padding-top: 3rem;
+	}
+	.page-header nav li:last-child{
+		margin-right: 0;
+	}
+	.page-header nav li em{
+		display: block;
+		color: #474747;
+		font-size: 1.6em;
+	}
+.first {
+	width: 70%;
+	margin-right:5%;
+}
+	.first > p {
+		padding-bottom: 1em; 
+		border-bottom: 5px double black;
+	}
+	.navi{
+		padding: 1em 0;
+		margin-bottom: 0.2em;
+	}
+	.navi li{
+		float: left;
+		padding: 0 1em ;
+		border-right: 1px solid black;
+	}
+	.navi:last-child{
+		
+		border:0;
+	}
+.ph{
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+	margin-bottom: 1em;
+	border: 1px solid black;	
+}
+.new {
+	padding: 1em;
+}
+.last1{
+	margin-right: 0;
+}
+.cm{
+	float: left;
+}
+
+/*=================*/
+.second{
+	width: 25%;	
+}
+.mm{
+	position: relative;
+	top: 54px;
+}
+.second  h5{
+	border-bottom: 5px double black;
+	padding-bottom: 1em;
+}
+.second p{
+	margin-top: 1.5em ;
+	margin-bottom: 3em;
+	
+}
+.second .mm ul{
+	margin-top: 1.5em ;
+	margin-bottom: 3em;
+
+}
+
+.page-footer:before{
+	content: " ";
+	display: block;
+	height: 5px;
+	background: url(C:\Users\Bhavya\Desktop\New folder\Final Project\image\1s.png) left top repeat-x;
+}
+.page-footer{
+	background-color:#f4f4f4;
+	color:9b9b9b;
+	font-size: 1rem;
+	height: 70px; 
+	}
+	.copyright{
+		float: left;
+	}
+	.credit{
+		float: right; 	
+	}
+	.footer-div{
+		padding: 1em 0;
+	}
+
+
+
+
+
